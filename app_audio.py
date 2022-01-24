@@ -8,7 +8,7 @@ with sr.AudioFile("./sample_audio/speech.wav") as source:
     recorded_audio = recognizer.listen(source)
     print("Done recording")
 
-''' Recorgnizing the Audio '''
+''' Recognizing the Audio '''
 try:
     print("Recognizing the text")
     text = recognizer.recognize_google(
